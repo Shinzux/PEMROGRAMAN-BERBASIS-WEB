@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AlFarBooks</title>
+</head>
+<body>
+
+    <h1>Selamat Datang di AlFarBooks!</h1>
+    <h2>Toko Buku Online Terlengkap</h2>
+
+    <p>
+        [ <a href="index.html">Beranda</a> ]
+        [ <a href="katalog.html">Katalog</a> ]
+        [ <a href="promo.html">Promo</a> ]
+        [ <a href="tentang.html">Tentang Kami</a> ]
+        [ <a href="kontak.html">Kontak</a> ]
+    </p>
+
+    <hr>
+
+    <h2>Tentang Kami</h2>
+    <p>
+        AlFarBooks adalah halaman toko buku sederhana yang saya buat sebagai latihan HTML.
+        Saya membuat halaman ini karena saya tertarik dengan buku yang membahas bisnis,
+        pengembangan diri, keuangan, dan cara berpikir.
+    </p>
+    <p>
+        Beberapa buku di katalog merupakan buku yang pernah saya baca atau sedang saya minati.
+    </p>
+
+    <hr>
+
+    <h2>Hubungi Kami</h2>
+
+    <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" name="nama" id="nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="telepon">Nomor Telepon:</label><br>
+        <input type="tel" name="telepon" id="telepon"><br><br>
+
+        <label for="topik">Topik Pesan:</label><br>
+        <select name="topik" id="topik">
+            <option value="pertanyaan_umum">Pertanyaan Umum</option>
+            <option value="pesanan">Pesanan</option>
+            <option value="rekomendasi_buku">Rekomendasi Buku</option>
+            <option value="lainnya">Lainnya</option>
+        </select><br><br>
+
+        <label for="pesan">Pesan Anda:</label><br>
+        <textarea name="pesan" id="pesan" rows="6" cols="45"></textarea><br>
+
+        <p>Bagaimana Anda Mengetahui Kami? (Pilih satu)</p>
+        <input type="radio" name="sumber" value="teman"> Teman<br>
+        <input type="radio" name="sumber" value="media_sosial"> Media Sosial<br>
+        <input type="radio" name="sumber" value="lainnya"> Lainnya<br><br>
+
+        <input type="checkbox" name="syarat" value="setuju"> Setujui Syarat & Ketentuan<br><br>
+
+        <input type="submit" name="submit" value="Kirim Pesan">
+    </form>
+
+</body>
+</html>
