@@ -6,11 +6,12 @@ Repositori ini berisi kumpulan project latihan coding web saya. Silakan klik lin
 
 ### 🚀 Link Preview Project
 
-* **[AlFarBooks](https://shinzux.github.io/PEMROGRAMAN-BERBASIS-WEB/AlFarBooks/index.html)**  
+* <a href="https://shinzux.github.io/PEMROGRAMAN-BERBASIS-WEB/AlFarBooks/index.html" target="_blank"><b>AlFarBooks</b></a>  
   Tugas pertama web, tanpa css.
 
-* **[Portofolio Page](https://shinzux.github.io/PEMROGRAMAN-BERBASIS-WEB/Portofolio%20Page/index.html)**  
+* <a href="https://shinzux.github.io/PEMROGRAMAN-BERBASIS-WEB/AlFarBooks/index.html" target="_blank"><b>Portofolio Page</b></a>  
   Percobaan menggunakan css, web menyimpan portofolio.
+
 ---
 
 ### 🛠️ Tech Stack
