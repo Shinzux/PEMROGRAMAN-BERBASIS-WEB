@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Saya - Muhammad Al Faruq</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Muhammad Al Faruq</a>
+            <nav class="nav-links">
+                <a href="index.html#beranda">Beranda</a>
+                <a href="index.html#proyek">Proyek</a>
+                <a href="kontak.html" style="color: #2685ff;">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-title">Hubungi Saya</h1>
+                <p class="contact-subtitle">
+                    Tertarik berdiskusi seputar sistem informasi, eksplorasi bisnis dan teknologi, atau ingin mendiskusikan ide proyek? Silakan hubungi saya melalui informasi kontak atau kirim pesan melalui formulir di bawah ini.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contact-section">
+        <div class="container">
+            <div class="contact-layout">
+
+                <!-- Kolom 1: Informasi Kontak Personal -->
+                <aside class="contact-info-panel">
+                    <h2 class="contact-panel-title">Informasi Kontak</h2>
+                    <p class="contact-panel-desc">
+                        Gunakan kontak langsung di bawah ini atau kirimkan pesan melalui formulir di samping.
+                    </p>
+
+                    <div class="info-list">
+                        <!-- Item Telepon / WA -->
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">&#9742;</div>
+                            <div class="info-details">
+                                <div class="info-label">WhatsApp</div>
+                                <div class="info-val">
+                                    <a href="https://wa.me/6289621187314" target="_blank" rel="noopener noreferrer" style="color: #2685ff; text-decoration: none;">+62 896-2118-7314</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item Kampus -->
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">&#128205;</div>
+                            <div class="info-details">
+                                <div class="info-label">Institusi &amp; Kampus</div>
+                                <div class="info-val">Universitas Kebangsaan Republik Indonesia (UKRI), Bandung</div>
+                            </div>
+                        </div>
+
+                        <!-- Item Program Studi -->
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">&#127891;</div>
+                            <div class="info-details">
+                                <div class="info-label">Program Studi</div>
+                                <div class="info-val">Sistem Informasi (S1)</div>
+                            </div>
+                        </div>
+
+                        <!-- Item Jalur Komunikasi -->
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">&#128337;</div>
+                            <div class="info-details">
+                                <div class="info-label">Jalur Respons</div>
+                                <div class="info-val">WhatsApp &amp; Formulir Pesan Web</div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Kolom 2: Formulir Kontak -->
+                <section class="contact-form-panel">
+                    <h2 class="contact-panel-title">Kirim Pesan</h2>
+                    <p class="contact-panel-desc">
+                        Lengkapi formulir di bawah ini dengan detail keperluan atau topik yang ingin didiskusikan.
+                    </p>
+
+                    <div id="form-status" class="form-status" role="alert" aria-live="polite"></div>
+
+                    <form id="contact-form" novalidate>
+                        <!-- Kolom Nama -->
+                        <div class="form-group">
+                            <label for="nama" class="form-label">
+                                Nama Lengkap <span class="required-mark">*</span>
+                            </label>
+                            <input type="text" id="nama" name="nama" class="form-control"
+                                placeholder="Masukkan nama lengkap Anda" required minlength="3">
+                            <div class="error-message">Nama wajib diisi (minimal 3 karakter).</div>
+                        </div>
+
+                        <!-- Kolom Email -->
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                Alamat Email <span class="required-mark">*</span>
+                            </label>
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="contoh: nama@domain.com" required>
+                            <div class="error-message">Format alamat email tidak valid.</div>
+                        </div>
+
+                        <!-- Kolom Subjek -->
+                        <div class="form-group">
+                            <label for="subjek" class="form-label">
+                                Subjek Pesan <span class="required-mark">*</span>
+                            </label>
+                            <input type="text" id="subjek" name="subjek" class="form-control"
+                                placeholder="Contoh: Diskusi Prototipe Sistem Servis HP" required minlength="4">
+                            <div class="error-message">Subjek pesan wajib diisi (minimal 4 karakter).</div>
+                        </div>
+
+                        <!-- Kolom Pesan -->
+                        <div class="form-group">
+                            <label for="pesan" class="form-label">
+                                Isi Pesan <span class="required-mark">*</span>
+                            </label>
+                            <textarea id="pesan" name="pesan" class="form-control" rows="5"
+                                placeholder="Tuliskan pesan, pertanyaan, atau detail diskusi Anda di sini..." required
+                                minlength="10"></textarea>
+                            <div class="error-message">Pesan wajib diisi (minimal 10 karakter).</div>
+                        </div>
+
+                        <!-- Tombol Aksi -->
+                        <div class="form-actions">
+                            <button type="submit" class="btn-primary btn-submit" id="btn-kirim">Kirim Pesan</button>
+                            <a href="index.html" class="btn-secondary">Kembali ke Beranda</a>
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Konsisten -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Muhammad Al Faruq &bull; Sistem Informasi UKRI</p>
+        </div>
+    </footer>
+
+    <!-- Script Interaktif Terpadu -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
